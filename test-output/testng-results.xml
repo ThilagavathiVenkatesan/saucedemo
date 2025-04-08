@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-05T18:27:19 IST" name="Default suite" finished-at="2025-04-05T18:27:24 IST" duration-ms="4902">
+  <suite started-at="2025-04-08T16:52:43 IST" name="Default suite" finished-at="2025-04-08T16:52:53 IST" duration-ms="10092">
     <groups>
     </groups>
-    <test started-at="2025-04-05T18:27:19 IST" name="Default test" finished-at="2025-04-05T18:27:24 IST" duration-ms="4902">
+    <test started-at="2025-04-08T16:52:43 IST" name="Default test" finished-at="2025-04-08T16:52:53 IST" duration-ms="10092">
       <class name="swag.lab.BrowserSetup">
-        <test-method is-config="true" signature="loginurl()[pri:0, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-05T18:27:18 IST" name="loginurl" finished-at="2025-04-05T18:27:19 IST" duration-ms="1387" status="PASS">
+        <test-method is-config="true" signature="loginurl()[pri:0, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-08T16:52:41 IST" name="loginurl" finished-at="2025-04-08T16:52:43 IST" duration-ms="1412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginurl -->
-        <test-method signature="loginweb()[pri:1, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-05T18:27:19 IST" name="loginweb" finished-at="2025-04-05T18:27:20 IST" duration-ms="185" status="PASS">
+        <test-method signature="loginweb()[pri:1, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-08T16:52:43 IST" name="loginweb" finished-at="2025-04-08T16:52:43 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginweb -->
-        <test-method signature="additems()[pri:2, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-05T18:27:20 IST" name="additems" finished-at="2025-04-05T18:27:24 IST" duration-ms="4254" status="PASS">
+        <test-method signature="additems()[pri:2, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-08T16:52:43 IST" name="additems" finished-at="2025-04-08T16:52:47 IST" duration-ms="4269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- additems -->
-        <test-method signature="cartt()[pri:3, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-05T18:27:24 IST" name="cartt" finished-at="2025-04-05T18:27:24 IST" duration-ms="297" status="PASS">
+        <test-method signature="cartt()[pri:3, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-08T16:52:47 IST" name="cartt" finished-at="2025-04-08T16:52:47 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartt -->
-        <test-method signature="logoutWeb()[pri:4, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-05T18:27:24 IST" name="logoutWeb" finished-at="2025-04-05T18:27:24 IST" duration-ms="138" status="PASS">
+        <test-method signature="about()[pri:4, instance:swag.lab.BrowserSetup@57db2b13]" started-at="2025-04-08T16:52:47 IST" name="about" finished-at="2025-04-08T16:52:53 IST" duration-ms="5338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutWeb -->
+        </test-method> <!-- about -->
       </class> <!-- swag.lab.BrowserSetup -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

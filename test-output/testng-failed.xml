@@ -6,7 +6,7 @@
       <class name="swag.lab.BrowserSetup">
         <methods>
           <include name="loginurl"/>
-          <include name="cartt"/>
+          <include name="logoutWeb"/>
         </methods>
       </class> <!-- swag.lab.BrowserSetup -->
     </classes>

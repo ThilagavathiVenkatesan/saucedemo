@@ -3,6 +3,7 @@ package swag.lab;
 import java.time.Duration;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
 import screens.Cart;
 import screens.Home;
 import screens.LoginScreen;
-import screens.Logout;
+import screens.WindowChange;
 
 
 public class BrowserSetup {
@@ -20,7 +21,7 @@ public class BrowserSetup {
 	
 	@BeforeSuite
 	public void loginurl() {
-System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"); 
+System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe"); 
 driver = new ChromeDriver();
 driver.get("https://www.saucedemo.com/");
 driver.manage().window().maximize();
@@ -46,17 +47,23 @@ void additems() throws InterruptedException {
 	homes.scrolldown();
 }
 @Test(priority=3)
-void cartt() {
+void cartt() throws InterruptedException {
 Cart option = new Cart(driver);
 option.cart();
 option.checkout("Software", "Tester", "635689");
 option.finishbutton();
 }
+
 @Test(priority=4)
-	void logoutWeb() {
-	Logout lp = new Logout(driver);
-	lp.menu();
+void about() throws InterruptedException {
+	WindowChange wc = new WindowChange(driver);
+	wc.sidebutton();
+	wc.newWindow();
+	Thread.sleep(2000);
 	
 }
+
+
+
 }
 
